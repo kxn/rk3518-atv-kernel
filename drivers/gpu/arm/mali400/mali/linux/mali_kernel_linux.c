@@ -1164,5 +1164,6 @@ late_initcall_sync(mali_module_init);
 module_exit(mali_module_exit);
 
 MODULE_LICENSE(MALI_KERNEL_LINUX_LICENSE);
+MODULE_IMPORT_NS(DMA_BUF);
 MODULE_AUTHOR("ARM Ltd.");
 MODULE_VERSION(SVN_REV_STRING);
